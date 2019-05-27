@@ -72,50 +72,57 @@ Usage: git commit -m 'Type in the commit message'
 ```
 $ git diff =>command shows the file differences which are not yet staged.<br />
 ```js
-Usage: git diff 
-Usage: git diff –staged
+Usage: git diff   #shows the file differences which are not yet staged.
+Usage: git diff –staged    #differences between the files in the staging area and the latest version present.
+Usage: git diff [first branch] [second branch]  #differences between the two branches mentioned.
 ```
-$ git reset => <br />
+$ git reset [filename]=> command unstages the file, but it preserves the file contents. <br />
 ```js
-
+Usage: git reset [file] #unstages the file, but it preserves the file contents.
+Usage: git reset hashOfCommit #undoes all the commits after the specified commit and preserves the changes locally.
+Usage: git reset –hard hashOfCommit  #discards all history and goes back to the specified commit.
 ```
-$ git status<br />
+$ git status => lists all the files that have to be committed.<br />
 ```js
-
+Usage: git status  
 ```
-$ git rm<br />
+$ git rm => deletes the file from your working directory and stages the deletion.<br />
 ```js
-
+Usage: git rm filename
 ```
-$ git log<br />
+$ git log => used to list the version history for the current branch.<br />
 ```js
-
+Usage: git log  
+Usage: git log –follow[file] 
 ```
-$ git show<br />
+$ git show => shows the metadata and content changes of the specified commit.<br />
 ```js
-
+Usage: git show hashOfCommit
 ```
-$ git tag<br />
+$ git tag => is used to give tags to the specified commit.<br />
 ```js
-
+Usage: git tag hashOfCommit  
 ```
-$ git branch<br />
+$ git branch =>lists all the local branches in the current repository.<br />
 ```js
-
+Usage: git branch
+Usage: git branch branch_name  #command creates a new branch.
+Usage: git branch -d branch_name #deletes the feature branch.
 ```
 $ git checkout<br />
 ```js
-
+Usage: git checkout branch_name  #is used to switch from one branch to another.
+Usage: git checkout -b branch_name #creates a new branch and also switches to it.
 ```
 $ git merge<br />
 ```js
-
+Usage: git merge branch_name]  #merges the specified branch’s history into the current branch.
 ```
 $ git remote<br />
 ```js
-
+Usage: git remote add origin Remote_Server_Link
 ```
-$ git push<br />
+$ git push => sends the committed changes of master branch to your remote repository.<br />
 ```js
 
 ```
@@ -127,17 +134,3 @@ $ git stash<br />
 ```js
 
 ```
-
-```json
-    code for coloring
-```
-```html
-   code for coloring
-```
-```js
-    code for coloring
-```
-```css
-    code for coloring
-```
- etc.

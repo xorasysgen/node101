@@ -42,7 +42,7 @@ console.log(data);
 
 fs.rename(
     path.join(__dirname,'folder','test.txt'),
-    path.join(__dirname,'folder','renamed_test.txt'),
+    path.join(__dirname,'folder','test.txt'),
     err => {
         if(err) throw err;
         console.log("file renamed...");
