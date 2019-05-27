@@ -124,13 +124,23 @@ Usage: git remote add origin Remote_Server_Link
 ```
 $ git push => sends the committed changes of master branch to your remote repository.<br />
 ```js
-
+Usage: git push origin master 
+Usage: git push [variable name] [branch] 
+Usage: git push –all [variable name] #pushes all branches to your remote repository.
+Usage: git push [variable name] :[branch name]  #deletes a branch on your remote repository.
 ```
-$ git pull<br />
+$ git pull =>fetches and merges changes on the remote server to your working directory.<br />
 ```js
-
+Usage: git pull origin master 
 ```
-$ git stash<br />
+$ git stash => temporarily stores all the modified tracked files.<br />
 ```js
-
+Usage: git stash save   #temporarily stores all the modified tracked files.
+Usage: git stash pop    #restores the most recently stashed files.
+Usage: git stash list   #lists all stashed changesets.
+Usage: git stash drop   #discards the most recently stashed changeset
 ```
+
+#Refrence
+1. https://dzone.com/articles/top-20-git-commands-with-examples
+2. https://www.youtube.com/watch?v=SWYqp7iY_Tc
