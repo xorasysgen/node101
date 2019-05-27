@@ -1,4 +1,4 @@
-# JavaScript essentials: why you should know how the engine works <br/>
+# Node Js essentials: why you should know how the engine works <br/>
 ## Each major browser vendor has its own engine.<br />
 1. Mozilla Firefox has Spidermonkey,<br />
 2. Microsoft Edge has Chakra/ChakraCore,<br />
@@ -14,7 +14,7 @@
 
 2. Inline Caching is a powerful optimisation technique. It works best when only a single object shape passes to the optimised function.<br />
 
-3.My drastic example showed the effects of Inline Caching’s different types and the performance penalties of megamorphic caches.<br />
+3. My drastic example showed the effects of Inline Caching’s different types and the performance penalties of megamorphic caches.<br />
 
 4. Using JavaScript classes is good practice. Static typed transpilers, like TypeScript, make monomorphic IC’s more likely.<br />
 
