@@ -70,3 +70,17 @@ $ git remote<br />
 $ git push<br />
 $ git pull<br />
 $ git stash<br />
+
+```json
+    code for coloring
+```
+```html
+   code for coloring
+```
+```js
+    code for coloring
+```
+```css
+    code for coloring
+```
+ etc.
