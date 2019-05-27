@@ -53,7 +53,7 @@ $ git config => command to sets the author name and email address respectively t
 ```js
 Usage: git config –global user.name 'name'   <br />
 Usage: git config –global user.email 'email@address' <br /><br />
-```js
+```
 $ git init <br />
 $ git clone <br />
 $ git add<br />
