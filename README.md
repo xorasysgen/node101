@@ -49,8 +49,11 @@ Already up to date.
 
 
 Here are the Git commands which are being covered:
-$ git config <br />
+$ git config => command to sets the author name and email address respectively to be used with your commits<br />
+Usage: git config –global user.name 'name'   <br />
+Usage: git config –global user.email 'email@address'  <br />
 $ git init <br />
+
 $ git clone <br />
 $ git add<br />
 $ git commit<br />
