@@ -182,4 +182,5 @@ Usage: git stash drop   #discards the most recently stashed changeset
 1. https://dzone.com/articles/top-20-git-commands-with-examples
 2. https://www.youtube.com/watch?v=SWYqp7iY_Tc
 3. https://www.freecodecamp.org/news/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553/
+4. https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 ```
