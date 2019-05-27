@@ -51,8 +51,8 @@ Already up to date.
 Here are the Git commands which are being covered:<br />
 $ git config => command to sets the author name and email address respectively to be used with your commits<br />
 ```js
-Usage: git config –global user.name 'name'   <br />
-Usage: git config –global user.email 'email@address' <br /><br />
+Usage: git config –global user.name 'name'   
+Usage: git config –global user.email 'email@address' 
 ```
 $ git init <br />
 $ git clone <br />
