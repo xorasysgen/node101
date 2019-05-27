@@ -1,5 +1,5 @@
 # JavaScript essentials: why you should know how the engine works <br/>
-#Each major browser vendor has its own engine.<br />
+## Each major browser vendor has its own engine.<br />
 1. Mozilla Firefox has Spidermonkey,<br />
 2. Microsoft Edge has Chakra/ChakraCore,<br />
 3. Apple Safari has JavaScriptCore,<br />
@@ -9,7 +9,7 @@
 1. Fast application startup of the interpreter.<br />
 2. Fast execution of the compiler.<br />
 
-Combined Forces: Interpreter and Compiler<br />
+## Combined Forces: Interpreter and Compiler<br />
 1. Modern JavaScript engines combine the benefits of interpreter and compiler: Fast application startup and fast code execution.<br />
 
 2. Inline Caching is a powerful optimisation technique. It works best when only a single object shape passes to the optimised function.<br />
@@ -19,7 +19,8 @@ Combined Forces: Interpreter and Compiler<br />
 4. Using JavaScript classes is good practice. Static typed transpilers, like TypeScript, make monomorphic IC’s more likely.<br />
 
 
-#Nodejs101  Project  <br />
+# NodeJS101 Project  <br />
+## Steps to install Node Js
 $node --version <br />
 $npm --version <br />
 $node <br />
@@ -30,10 +31,10 @@ $npm install --save-dev nodemon  # download devleopment dependency <br />
 $npm install -D nodemon  # download devleopment dependency <br />
 [above 2 are identical] <br />
 
-go ahead to start development write codes<br />
+## Go ahead to start development write codes<br />
  
-#Git Commands <br />
-#Steps to be performed to achieve git repository
+# Git Commands <br />
+## Steps to be performed to achieve git repository
 $ right click of so urce folder<br />
 $ git init <br />
 $ git config --global user.name 'sushil kumar bhaskar' <br />
