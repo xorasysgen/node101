@@ -110,7 +110,7 @@ $ git pull =>Downloads bookmark history and incorporates changes
 $ right click of so urce folder<br />
 $ git init <br />
 $ git config --global user.name 'sushil kumar bhaskar' <br />
-$ git config --global user.email 'xorasysgen$yahoo.com' <br />
+$ git config --global user.email 'xorasysgen@yahoo.com' <br />
 $ git status<br />
 $ git add . # will add all<br />
 $ git add *.html # will add only html<br />
@@ -154,7 +154,7 @@ Usage: git init
 ```
 $ git clone => command is used to obtain a repository from an existing URL. <br />
 ```js
-Usage: git clone https://github/node
+Usage: git clone https://github.com/xorasysgen/node101
 ```
 $ git add => command adds a file to the staging area. <br />
 ```js
