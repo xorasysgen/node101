@@ -5,13 +5,14 @@ $node <br />
 $open up a folder in visual code <br />
 $npm init  #create package.json <br />
 $npm install uuid  # create uuid <br />
-$npm install --save-dev nodemon  # download devleopment demendency <br />
-$npm install -D nodemon  # download devleopment demendency <br />
+$npm install --save-dev nodemon  # download devleopment dependency <br />
+$npm install -D nodemon  # download devleopment dependency <br />
 [above 2 are identical] <br />
 
 go ahead to start development write codes<br />
  
-#Git Commands<br />
+#Git Commands <br />
+#Steps to be performed to achieve git repository
 $ right click of so urce folder<br />
 $ git init <br />
 $ git config --global user.name 'sushil kumar bhaskar' <br />
@@ -45,3 +46,25 @@ $ git pull origin master
 From https://github.com/xorasysgen/node101
  * branch            master     -> FETCH_HEAD
 Already up to date.
+
+
+Here are the Git commands which are being covered:
+$ git config <br />
+$ git init <br />
+$ git clone <br />
+$ git add<br />
+$ git commit<br />
+$ git diff<br />
+$ git reset<br />
+$ git status<br />
+$ git rm<br />
+$ git log<br />
+$ git show<br />
+$ git tag<br />
+$ git branch<br />
+$ git checkout<br />
+$ git merge<br />
+$ git remote<br />
+$ git push<br />
+$ git pull<br />
+$ git stash<br />
