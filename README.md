@@ -1,4 +1,25 @@
-#Nodejs101  first Project  <br />
+# JavaScript essentials: why you should know how the engine works <br/>
+#Each major browser vendor has its own engine.<br />
+1. Mozilla Firefox has Spidermonkey,<br />
+2. Microsoft Edge has Chakra/ChakraCore,<br />
+3. Apple Safari has JavaScriptCore,<br />
+4. Google Chrome uses V8, which is also the engine of Node.js<br />
+
+# Idea behind modern engines is to combine the best of both worlds:<br />
+1. Fast application startup of the interpreter.<br />
+2. Fast execution of the compiler.<br />
+
+Combined Forces: Interpreter and Compiler<br />
+1. Modern JavaScript engines combine the benefits of interpreter and compiler: Fast application startup and fast code execution.<br />
+
+2. Inline Caching is a powerful optimisation technique. It works best when only a single object shape passes to the optimised function.<br />
+
+3.My drastic example showed the effects of Inline Caching’s different types and the performance penalties of megamorphic caches.<br />
+
+4. Using JavaScript classes is good practice. Static typed transpilers, like TypeScript, make monomorphic IC’s more likely.<br />
+
+
+#Nodejs101  Project  <br />
 $node --version <br />
 $npm --version <br />
 $node <br />
@@ -141,6 +162,11 @@ Usage: git stash list   #lists all stashed changesets.
 Usage: git stash drop   #discards the most recently stashed changeset
 ```
 
-#Refrence
+
+
+#References
+```html
 1. https://dzone.com/articles/top-20-git-commands-with-examples
 2. https://www.youtube.com/watch?v=SWYqp7iY_Tc
+3. https://www.freecodecamp.org/news/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553/
+```
