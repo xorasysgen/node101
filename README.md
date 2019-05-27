@@ -54,24 +54,79 @@ $ git config => command to sets the author name and email address respectively t
 Usage: git config –global user.name 'name'   
 Usage: git config –global user.email 'email@address' 
 ```
-$ git init <br />
-$ git clone <br />
-$ git add<br />
-$ git commit<br />
-$ git diff<br />
-$ git reset<br />
+$ git init =>command is used to start a new repository.<br />
+```js
+Usage: git init
+```
+$ git clone => command is used to obtain a repository from an existing URL. <br />
+```js
+Usage: git clone https://github/node
+```
+$ git add => command adds a file to the staging area. <br />
+```js
+Usage: git add abc.js or .
+```
+$ git commit => command records or snapshots the file permanently in the version history.<br />
+```js
+Usage: git commit -m 'Type in the commit message' 
+```
+$ git diff =>command shows the file differences which are not yet staged.<br />
+```js
+Usage: git diff 
+Usage: git diff –staged
+```
+$ git reset => <br />
+```js
+
+```
 $ git status<br />
+```js
+
+```
 $ git rm<br />
+```js
+
+```
 $ git log<br />
+```js
+
+```
 $ git show<br />
+```js
+
+```
 $ git tag<br />
+```js
+
+```
 $ git branch<br />
+```js
+
+```
 $ git checkout<br />
+```js
+
+```
 $ git merge<br />
+```js
+
+```
 $ git remote<br />
+```js
+
+```
 $ git push<br />
+```js
+
+```
 $ git pull<br />
+```js
+
+```
 $ git stash<br />
+```js
+
+```
 
 ```json
     code for coloring
