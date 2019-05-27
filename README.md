@@ -33,7 +33,19 @@ $npm install -D nodemon  # download devleopment dependency <br />
 
 ## Go ahead to start development write codes<br />
  
-# Git Commands <br />
+# Git Commands Types <br />
+### GIT CHEAT SHEET
+1. CONFIGURE TOOLING - Configure user information for all local repositories <br />
+2. CREATE REPOSITORIES - Start a new repository or obtain one from an existing URL <br />
+3. MAKE CHANGES - Review edits and craf a commit transaction <br />
+4. GROUP CHANGES - Name a series of commits and combine completed efforts <br />
+5. REFACTOR FILENAMES - Relocate and remove versioned files <br />
+6. SUPPRESS TRACKING - Exclude temporary files and paths <br />
+7. SAVE FRAGMENTS - Shelve and restore incomplete changes <br />
+7. REVIEW HISTORY - Browse and inspect the evolution of project files <br />
+9. REDO COMMITS - Erase mistakes and craf replacement history <br />
+10. SYNCHRONIZE CHANGES - Register a repository bookmark and exchange version history <br />
+
 ## Steps to be performed to achieve git repository
 $ right click of so urce folder<br />
 $ git init <br />
