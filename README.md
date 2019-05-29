@@ -236,6 +236,19 @@ Usage: git stash drop   #discards the most recently stashed changeset
 ```
 
 
+# How to ignore particular file
+```js
+There are two possible options
+
+1 remove application-heroku.properties completely from the git repository and then ignore it completely:
+git rm --cached src/main/java/application-heroku.properties and add it to .gitignore.
+
+2 keep src/main/java/application-heroku.properties in the git repository but ignore future changes to this file
+git update-index --assume-unchanged  src/main/java/application-heroku.properties
+
+If you wanna start tracking changes again run the following command:
+git update-index --no-assume-unchanged src/main/java/application-heroku.properties
+```
 
 #References
 ```html
