@@ -245,7 +245,8 @@ Usage: git pull origin master
 $ git stash => temporarily stores all the modified tracked files.<br />
 ```js
 Usage: git stash save   #temporarily stores all the modified tracked files.
-Usage: git stash pop    #restores the most recently stashed files.
+Usage: git stash pop    #restores the most recently stashed files with deleting from the list.
+Usage: git stash apply  #restores the most recently stashed files without deleting from list.
 Usage: git stash list   #lists all stashed changesets.
 Usage: git stash drop   #discards the most recently stashed changeset
 ```
