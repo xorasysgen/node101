@@ -33,6 +33,21 @@ $npm install -D nodemon  # download devleopment dependency <br />
 
 ## Go ahead to start development write codes<br />
  
+# delete branch server
+git push -d origin feature/inbound-enhance-upgrade-p1
+
+# delete branch local
+git branch -d  feature/initial-release
+
+# update comment
+git commit --amend -m "external property update, removed unused"
+
+# view graph
+git log --oneline --graph
+
+# create branch
+git checkout -b feature/initial-release
+
 # Git Commands Types <br />
 ### GIT CHEAT SHEET
 1. CONFIGURE TOOLING - Configure user information for all local repositories <br />
